@@ -14,11 +14,16 @@ import HomeOffice from './components/HomeOffice';
 import ToggleMenu from './components/ToggleMenu';
 import { fetchPosts } from './Redux/Actions/FetchPosts'
 import CartArea from './components/CartArea';
+import Admin from './components/Admin';
+import LoginUp from './components/LoginUp';
+import SignUp from './components/SignUp';
+
 
 
 function App() {
   const [Show, setShow] = useState(false)
   const dispatch = useDispatch();
+
 
   useEffect(() => {
     dispatch(fetchPosts());
@@ -57,11 +62,22 @@ function App() {
         <Route exact path='/phone'>
           <Phone />
         </Route>
+        <Route exact path="/admin">
+          <Admin />
+
+        </Route>
         <Route exact path='/cart'>
           <CartArea />
         </Route>
+        <Route exact path="/loginup">
+          <LoginUp />
 
+        </Route>
 
+        <Route exact path="/signup">
+          <SignUp />
+
+        </Route>
 
 
       </Switch>

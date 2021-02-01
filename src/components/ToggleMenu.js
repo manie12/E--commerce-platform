@@ -16,6 +16,9 @@ export default function ToggleMenu({ setShow }) {
             <Link to='/garden' className='item__link'>Garden & Outdoors</Link>
             <Link to='/sports' className='item__link'>Sporting</Link>
             <Link to='/computing' className='item__link'>Computing</Link>
+            <Link to="/admin" className="item__link"> Admin</Link>
+            <Link to="/signup" className="item__link"> SIGN UP</Link>
+            <Link to="/loginup" className="item__link"> LOGIN UP</Link>
 
 
 

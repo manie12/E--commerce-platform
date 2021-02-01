@@ -10,7 +10,7 @@ export default function Beauty() {
     return (
         < div className="wrapper">
             {posts.map((post) => (
-
+            
                 <div key={post._id} className="beauty__link">
                     < img src={post.url} alt='item nivea' />
 

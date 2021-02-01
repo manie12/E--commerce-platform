@@ -154,11 +154,22 @@ margin-bottom: 0%;
   grid-row: 3/4;
   align-self: center;
 }
+.admiN{
+  display: grid;
+margin: 0em auto;
+}
+.fieldtext{
+  margin-bottom: 2em;
+}
 
-
-
-
-
+.signup{
+  display: block;
+  text-decoration: none;
+  list-style: none;
+}
+.input__field{
+  margin-bottom: 3em;
+}
 
 
 

@@ -5,13 +5,13 @@ import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
 export default function CartArea() {
-    const history = useHistory();
-    const posts = useSelector(state => state.Products);
+     const history = useHistory();
+     const posts = useSelector(state => state.Products);
 
 
     return (
         <>
-
+    
             <div className='arrow__back'>
                 <ArrowBackIosOutlined onClick={() => history.goBack()} />
             </div>
